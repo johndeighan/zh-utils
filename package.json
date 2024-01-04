@@ -1,0 +1,24 @@
+{
+	"name": "@jdeighan/zh-utils",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "Chinese Language utilities",
+	"engines": {
+		"node": ">=18.0.0"
+		},
+	"exports": {
+		".": "./src/lib/zh-utils.js",
+		"./package.json": "./package.json"
+		},
+	"scripts": {
+		"build": "cls && coffee -c .",
+		"test": "npm run build && ava ./test/*.test.js && git status"
+		},
+	"keywords": ["coffeescript"],
+	"author": "John Deighan",
+	"license": "MIT",
+	"devDependencies": {
+		"@jdeighan/base-utils": "^8.0.24",
+		"@jdeighan/unit-tester": "^3.0.71"
+	}
+}
