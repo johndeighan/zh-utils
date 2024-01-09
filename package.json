@@ -20,7 +20,7 @@
 	"author": "John Deighan",
 	"license": "MIT",
 	"devDependencies": {
-		"@jdeighan/base-utils": "^8.0.24",
-		"@jdeighan/unit-tester": "^3.0.71"
+		"@jdeighan/base-utils": "^8.0.28",
+		"@jdeighan/unit-tester": "^3.0.76"
 	}
 }
