@@ -1,6 +1,6 @@
 {
 	"name": "@jdeighan/zh-utils",
-	"version": "1.0.14",
+	"version": "1.0.15",
 	"type": "module",
 	"description": "Chinese Language utilities",
 	"engines": {
